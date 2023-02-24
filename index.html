@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Oxygen-Icons.org-Oxygen-Apps-preferences-system-login.256.png" type="image/x-icon">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <form action="login.php" method="post" autocomplete="on">
+            <img src="images/imagem em 72px.png" alt="Tela de Login">
+            <br>
+            <br>
+            <p>
+                <label for="user">Usuário: </label>
+                <input type="text" name="usu" id="user" required minlength="5" maxlength="50" placeholder="Informe seu nome" autoomplete="username">
+            </p>
+
+            <br>
+            <p>
+                <label for="senha">Senha: </label>
+                <input type="password" name="sen" id="senha" required minlength="5" maxlength="9" placeholder="Informe sua senha">
+            </p>
+
+            <br>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
