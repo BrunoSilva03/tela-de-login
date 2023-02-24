@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    main {
+        width: 769px;
+       display: block;
+       margin: auto;
+       margin-top: 150px;
+       width: 70vw;
+    }
+}
